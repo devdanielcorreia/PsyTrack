@@ -1,0 +1,56 @@
+# ======================================
+# 🧠 PsyTrack - Configuração do .gitignore
+# ======================================
+
+# ===== Logs =====
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ===== Dependências =====
+node_modules/
+
+# ===== Builds e distribuição =====
+dist/
+dist-ssr/
+
+# ===== Variáveis de ambiente =====
+.env
+.env.local
+.env.*.local
+
+# ===== Arquivos temporários =====
+*.local
+
+# ===== Configurações de editor =====
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+
+# ===== Arquivos de projeto (VS / JetBrains) =====
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ===== Cache e relatórios =====
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ===== Outras pastas de build =====
+coverage/
+.tmp/
+.cache/
+
+# ===== Sistema operacional =====
+Thumbs.db
+Desktop.ini
