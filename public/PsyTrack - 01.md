@@ -1,5 +1,4 @@
-# 🧠 PSYTRACK – CONTEXTUALIZAÇÃO TÉCNICA DO PROJETO -PRONTO PARA CONEXÃO BACKEND E FRONTEND E AUTENTICAÇÃO.
-
+# 🧠 PSYTRACK – CONTEXTUALIZAÇÃO TÉCNICA DO PROJETO -PRONTO PARA  CRUD DO PSICÓLOGO (traits, quizzes, assessments)
 ## 💡 Visão Geral
 PsyTrack é uma plataforma web para **avaliações psicológicas corporativas**, desenvolvida em **React + Vite + TypeScript + Tailwind CSS** com **Supabase** como backend.  
 O objetivo é permitir que **psicólogos**, **empresas** e **funcionários** participem de processos de avaliação personalizados, com segurança, clareza e interface moderna.
@@ -122,7 +121,7 @@ Essas variáveis são usadas em `src/lib/supabase.ts` para inicializar o cliente
 |-------|------------|--------|
 | 1️⃣ | Criação do projeto base (Vite + Tailwind) | ✅ Concluída |
 | 2️⃣ | Modelagem do banco + RLS (Supabase) | ✅ Concluída |
-| 3️⃣ | Conexão + Autenticação (Supabase Auth) | 🚧 Em andamento |
+| 3️⃣ | Conexão + Autenticação (Supabase Auth) | 🚧 Concluída |
 | 4️⃣ | CRUD do Psicólogo (traits, quizzes, assessments) | 🔜 Próxima |
 | 5️⃣ | CRUD da Empresa e Funcionários | 🔜 |
 | 6️⃣ | Aplicação e respostas de avaliações | 🔜 |
@@ -153,9 +152,8 @@ O Codex deve:
 Empreendedor e engenheiro civil, fundador da **CodeNode.AI**  
 Desenvolvedor de soluções SaaS com **Inteligência Artificial e automações corporativas**.
 
----
 
-## 📍 Localização do Documento
-Este arquivo deve estar em:
+
+
 
 
